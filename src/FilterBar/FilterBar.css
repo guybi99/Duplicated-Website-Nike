@@ -1,0 +1,18 @@
+.filter {
+    width: 90%;
+}
+
+.filter .filterTitel {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-bottom: 50px;
+    width: 195px;
+    font-weight: normal;
+}
+
+.filter ul li button {
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    width: 80px;
+    padding: 0px 0px 20px 0px;
+}

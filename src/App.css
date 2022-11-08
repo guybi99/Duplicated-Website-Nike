@@ -1,0 +1,11 @@
+.App .appregisterbar {
+    background-color: #f5f5f5;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}

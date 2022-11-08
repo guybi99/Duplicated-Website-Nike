@@ -1,0 +1,79 @@
+.home {
+    margin-top: 40px;
+    width: 92%;
+    padding-top: 40px;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.home .bigPic {
+    margin-bottom: 100px;
+}
+
+.home .bigPic {
+    width: 100%;
+    cursor: default;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.home .backto {
+    position: relative;
+    /* z-index: -1; */
+}
+
+.home .backto .backtoimg .pic1 {
+    padding-right: 5px;
+    position: relative;
+     z-index: 1; 
+    /* display: flex; */
+}
+
+.home .backto .backtoimg .pic2 {
+    padding-left: 5px;
+    position: relative;
+     z-index: 1; 
+}
+
+.home .backto .backtoimg {
+    display: flex;
+}
+
+.home .backto img {
+    width: 100%;
+    cursor: auto;
+}
+
+.home .backto h1 {
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.home .backto .backtoimg .pic1 .text,
+.home .backto .backtoimg .pic2 .text {
+    position: absolute;
+    display: flex;
+    left: 7%;
+    bottom: 21%;
+    color: white;
+    font-size: 19px;
+    padding: 5px;
+}
+
+.home .backto .backtoimg .pic1 .button,
+.home .backto .backtoimg .pic2 .button {
+    position: absolute;
+    display: flex;
+    left: 8%;
+    bottom: 9%;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    padding: 12px 25px 12px 25px;
+    font-weight: normal;
+}

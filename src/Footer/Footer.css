@@ -1,0 +1,130 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px
+}
+
+.footer .topfooter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer .butttomfooter {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.footer .topfooter .footerinfo {
+    width: 60%;
+    display: flex;
+    padding: 50px 50px 5px 50px;
+    justify-content: space-between;
+    /* margin: auto; */
+}
+
+.footer .topfooter .footerIcons {
+    display: flex;
+    justify-content: center;
+    width: 39%;
+    padding-left: 15px;
+    padding-top: 35px;
+}
+
+.footer .topfooter .footerinfo ul {
+    align-items: top;
+}
+
+.footer .topfooter .footerinfo ul li {
+    justify-content: space-evenly;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.footer .topfooter .footerinfo ul .title a {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    ;
+}
+
+.footer .topfooter .footerinfo ul .subTitel a {
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer .topfooter .footerinfo ul .titel button {
+    font-size: 17px;
+}
+
+.footer .topfooter .footerIcons a :hover {
+    display: inline;
+    margin: 10px;
+    height: fit-content;
+}
+
+.footer .topfooter .footerIcons a img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+
+.footer .butttomfooter .butttomfooterleft {
+    width: 48%;
+    margin: 1%;
+}
+
+.footer .butttomfooter .butttomfooterright {
+    width: 48%;
+    margin: 1%;
+    display: flex;
+}
+
+.footer .butttomfooter .butttomfooterleft a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer .butttomfooter .butttomfooterleft .cinfo {
+    margin-right: 15px;
+    color: gray;
+    font-size: 12px;
+}
+
+.footer .butttomfooter .butttomfooterright .butttomfooterrightul {
+    color: gray;
+    font-size: 12px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.footer .butttomfooter .butttomfooterright .butttomfooterrightul li {
+    justify-content: space-between;
+    margin-right: 30px;
+    color: gray;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.footer .butttomfooter .butttomfooterright .butttomfooterrightul li a {
+    justify-content: space-between;
+    /* margin-right: 10px; */
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer .butttomfooter .butttomfooterright .butttomfooterrightul li :hover {
+    color: white;
+}

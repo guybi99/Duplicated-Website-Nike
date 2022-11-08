@@ -1,0 +1,61 @@
+.item {
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.item .divImg {
+    width: 35%;
+    text-align: center;
+}
+
+.item .divInfo {
+    width: 33%;
+    text-align: left;
+    padding: 40px;
+}
+
+.item .divImg img {
+    width: 85%;
+}
+
+.item .divInfo .titel {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.item .divInfo h4 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.item .divInfo .changeColor {
+    color: red;
+    text-decoration: line-through;
+}
+
+.item .ImgAndInfo{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.item .suggestionItems{
+    display: flex;
+    justify-content:space-around ;
+    padding: 50px;
+    
+}
+.item .suggestionItems .ImgS{
+    width: 450px;
+    height: 450px;
+}
+
+.item .suggestionDiv .title{
+    margin-left: 125px;
+} 
+.item .suggestionDiv .suggestionItems .ItemSuggest .infoSuggestItem{
+    margin-top: 10px;
+}
+.item .suggestionDiv .suggestionItems .ItemSuggest .infoSuggestItem h5{
+margin-top: 5px;
+}

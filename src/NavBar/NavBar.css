@@ -1,0 +1,78 @@
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    width: 96%;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 40px;
+    background-color: white;
+    /* margin-bottom: 50px; */
+    z-index: 5; 
+}
+
+.navbar .tabs {
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    width: 55%;
+    font-size: 13px;
+    padding-right: 15%;
+    
+}
+
+.navbar .tabs :hover {
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+.navbar .nikeimg {
+    justify-content: start;
+}
+
+.navbar .nikeimg img {
+    width: 60px;
+    height: 60px;
+    /* padding: 5px; */
+}
+
+input[type="email"]::placeholder {
+    text-align: right;
+}
+
+
+
+.navbar .tabs div {
+    font-weight: normal;
+    font-size: 22px;
+    margin: 3px;
+    /* font-weight: bold; */
+}
+
+.navbar .tabs div:hover {
+    cursor: pointer;
+}
+
+
+@media(max-width:900px) {
+    .navbar {
+        position: relative;
+        top: 40px;
+        background-color: white;
+        display: block;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .navbar .tabs {
+        margin: auto;
+        display: block;
+        margin-bottom: 30px;
+        padding-right: 160px;
+    }
+    .navbar .nikeimg {
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+ 
+}

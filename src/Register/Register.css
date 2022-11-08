@@ -1,0 +1,162 @@
+* {
+    margin-top: 500px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#fname+#vfname{
+    color:green;
+}
+.form {
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 150px;
+    width: 40%;
+    margin: auto;
+}
+
+.form .theForm {
+    background-color: white;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+
+.form input {
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+
+.fullName {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.fname,
+.lname {
+    width: 49%;
+}
+.lname{
+   margin-left: 10px; 
+}
+
+input {
+    margin-bottom: 10px;
+    justify-content: space-between;
+    border-color: white;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.birthday {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.divGender{
+    display: flex;
+    align-items: center;
+}
+
+.birthday .selectButton,
+.divGender .selectButtonGender {
+    margin-right: 10px;
+    padding: 5px;
+    border: 2px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+.password,
+.confirmPassword,
+.email,
+.divGender .selectButtonGender,
+.phone {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.birthday .day,
+.birthday .year,
+.birthday .selectButton {
+    width: 33%;
+}
+.birthday .year{
+    margin-left: 10px;
+}
+.day,
+.year,
+.birthday .selectButton,
+.divGender .selectButtonGender {
+    margin-top: 11px;
+    font-size: 12px;
+}
+
+.divGender .selectButtonGender {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="email"]::placeholder {
+    text-align: right;
+}
+
+.form h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.form p {
+    width: 45%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.form .nikeimg {
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.form .nikeimg img {
+    width: 80px;
+    height: 80px;
+    /* padding: 5px; */
+}
+
+.submitButton {
+    text-align: center;
+}
+.iconYear svg{
+    font-size: 30px;
+    margin-right: -10px;
+    margin-left: 10px;
+}
+.iconDay svg{
+    font-size: 30px;
+}
+
+
+.iconRightInput svg{
+    margin-left: -20px;
+    font-size: 30px;
+}
+.iconLeftInput svg{
+    margin-right: -22px;
+    font-size: 30px;
+}

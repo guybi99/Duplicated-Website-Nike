@@ -1,0 +1,34 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.slide-container{
+    text-align: center;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 80%;
+}
+
+
+.slide-container .slide{
+    display: flex;
+  
+}
+
+.image-container{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 600px;
+    height: 600px;
+    border:1px solid black;
+   
+}
+
+.picSlide{
+    position: absolute;
+    color: red;
+    bottom: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: Arial;
+}

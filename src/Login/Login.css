@@ -1,0 +1,87 @@
+* {
+    margin-top: 100px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.login .form {
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 120px;
+    width: 22%;
+    margin: auto;
+}
+
+.login .form .theForm {
+    background-color: white;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    /* margin-top: 20px; */
+    border: 1px solid gray;
+}
+
+.login .form .email input,
+.login .form .password input {
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.login .form .email input::placeholder {
+    text-align: left;
+}
+
+.form h1 {
+    font-family: Helvetica!important;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 23px;
+    line-height: 26px;
+    margin: 0 auto;
+    max-width: 25ch;
+    font-weight: 700;
+    padding: 36px 0 26px;
+    width: 300px;
+}
+
+.form .nikeimg {
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.form .nikeimg img {
+    width: 60px;
+    height: 60px;
+    /* padding: 5px; */
+}
+
+.submitButton {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.submitButton input {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+
+.login .form p {
+    margin-top: 20px;
+    width: 90%;
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 40px;
+}
